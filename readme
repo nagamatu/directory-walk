@@ -1,0 +1,6 @@
+OWNER: Thomas Zaorski
+EMAIL: zaorst@rpi.edu
+
+This program is an exercise with using system calls in C. It walks the current working directory and all directories that may be contained within (including subdirectories within subdirectories). It displays file name, byte size, and permissions. It can take an optional argument which will locate all files which match argv[1] using strcmp(). 
+
+example "./a.out test.c" will show the locations of ever file named test.c
