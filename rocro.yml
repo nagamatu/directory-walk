@@ -4,5 +4,8 @@ inspecode:
       num-issues: 1
     options:
       - --: make
+      - -disable-checker: stm-0117.vs2003
+      - -disable-checker: stm-0117.vs2005
+      - -disable-checker: stm-0117.others
   misspell: default
   cppcheck: default
