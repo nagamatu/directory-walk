@@ -1,0 +1,8 @@
+inspecode:
+  stm-0117:
+    thresholds:
+      num-issues: 1
+    options:
+      - --: make
+  misspell: default
+  cppcheck: default
